@@ -1,0 +1,31 @@
+.error{
+    color: rgb(255, 66, 66);
+}
+.success{
+    color: green;
+}
+div#pagination{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 15px;
+}
+div#pagination a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+div#pagination a.active{
+    background-color: rgb(255, 65, 65);
+    color: #fff;
+}
